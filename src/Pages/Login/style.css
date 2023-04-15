@@ -1,0 +1,39 @@
+.google-sign-in button {
+  display: flex;
+  align-items: center;
+}
+.form-ele {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.form .footer {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 728px) {
+  form {
+    gap: 1rem;
+  }
+}
+@media screen and (min-width: 998px) {
+    form {
+        gap: 2rem;
+      }
+    .form{
+      margin-top: 4rem;
+    }
+}

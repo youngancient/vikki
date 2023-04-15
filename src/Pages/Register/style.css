@@ -1,0 +1,25 @@
+
+.input{
+    position: relative;
+}
+.input svg{
+    position: absolute;
+    top: 0.75rem;
+    left: 90%;
+    cursor: pointer;
+}
+.hidden{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (min-width: 728px) {
+    .input svg{
+        top: 0.9rem;
+        left: 87%;
+    }
+}
+@media screen and (min-width: 998px) {
+    .input svg{
+        top: 1rem;
+        left: 93%;
+    }
+}
