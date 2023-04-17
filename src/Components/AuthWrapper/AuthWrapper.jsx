@@ -1,8 +1,14 @@
 import { Outlet } from "react-router-dom";
 import "./style.css";
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect } from "react";
 
 const AuthWrapper = () => {
+  // I am having issues with the page transitions
+  // when i switch from login to register the whole page is re-rendered why? it's affecting the photo animation
+  useEffect(()=>{
+    console.log("eii");
+  },[])
   return (
     <motion.div className="wrapper" layout>
       <div className="first">

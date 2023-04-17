@@ -1,0 +1,33 @@
+.mobile-nav {
+  padding: 1rem;
+}
+.mobile-nav,
+.save-del {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.save-del .del, .tiles {
+  background: transparent;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 728px) {
+  .desktop-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-bottom: 1px solid rgba(182, 179, 179, 0.3);
+  }
+  .mobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 998px) {
+}

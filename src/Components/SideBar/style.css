@@ -1,0 +1,147 @@
+.mobile-sidebar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 100vh;
+}
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: 40%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #ffffff;
+  backdrop-filter: rgba(34, 33, 33, 0.5);
+}
+.link p,
+.new-btn .normal-txt {
+  color: #222121;
+}
+.new-btn p {
+  color: #fff;
+}
+.m-ele .cancel {
+  background: transparent;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.logout p {
+  color: #fc2d2d;
+}
+.m-ele .link {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  justify-content: unset;
+  align-items: unset;
+  padding: 0.75rem;
+  border-radius: 50px;
+}
+.x-cancel {
+  padding: 1rem;
+}
+.nothing{
+    height: 70%;
+    background: rgba(34, 33, 33, 0.5);
+}
+@media screen and (min-width: 728px) {
+  .sidebar {
+    border-right: 1px solid rgba(182, 179, 179, 0.3);
+    padding: 1rem;
+    min-height: 60vh;
+    display: flex;
+  }
+  .hnd {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3rem;
+  }
+  .hnd-other {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+  }
+  .hnd .link,
+  .hnd-other .link {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.25rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .hnd .svg {
+    padding: 0.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .cur {
+    background: #e3e9f9;
+  }
+  .desktop-sidebar {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .not-tab {
+    display: none;
+  }
+  .new-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 998px) {
+  .not-tab {
+    display: block;
+  }
+  .tab {
+    display: none;
+  }
+  .sidebar {
+    padding: 1.2rem;
+    min-height: 85vh;
+  }
+  .hnd-other {
+    /* gap: 10rem; */
+  }
+  .hnd .svg {
+    padding: 0rem;
+    width: auto;
+    display: block;
+    justify-content: center;
+    border-radius: 0;
+    align-items: center;
+  }
+  .hnd .link,
+  .hnd-other .link {
+    flex-direction: row;
+    width: 100%;
+    gap: 0.75rem;
+    justify-content: unset;
+    align-items: unset;
+    padding: 0.75rem;
+    border-radius: 50px;
+  }
+  .link:hover {
+    background: #e3e9f9;
+  }
+  .current {
+    background: #e3e9f9;
+  }
+  .cur {
+    background: none;
+  }
+}

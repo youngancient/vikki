@@ -67,6 +67,13 @@ button {
 .info{
     color: #8E8B8B;
 }
+.normal-txt {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
 /* buttons */
 .xtra-lg {
   background: #434ce6;
@@ -94,6 +101,24 @@ button {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+.md{
+  background: #434ce6;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  /* width: 100%; */
+}
+
+.lg-width{
+  width: 146px;
+}
+.md-width{
+  width: 80px;
 }
 
 /* input */

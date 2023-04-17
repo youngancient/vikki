@@ -2,7 +2,7 @@
 const Draft = () => {
     return ( 
         <div className="draft">
-            i am draft
+            <p>i am draft</p>
         </div>
      );
 }

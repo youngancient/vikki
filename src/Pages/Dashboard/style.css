@@ -1,0 +1,30 @@
+
+.desktop{
+    display: none;
+}
+
+@media screen and (min-width: 728px) {
+    .desktop{
+        display: flex;
+    }
+    .mobile{
+        display: none;
+    }
+    main{
+        display: flex;
+    }
+    .sidebar-cont{
+        width: 15%;
+    }
+    .table{
+        width: 85%;
+    }
+}
+@media screen and (min-width: 998px) {
+    .sidebar-cont{
+        width: 20%;
+    }
+    .table{
+        width: 80%;
+    }
+}
