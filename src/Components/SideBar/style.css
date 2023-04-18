@@ -6,6 +6,7 @@
   width: 100%;
   z-index: 10;
   height: 100vh;
+  overflow: hidden;
 }
 .link-list {
   display: flex;
